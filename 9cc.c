@@ -14,5 +14,6 @@ int main(int argc, char **argv) {
   printf("main:\n");
   printf("  mov rax, %d\n", atoi(argv[1]));
   printf("  ret\n");
+  printf("hola\n");
   return 0;
 }
