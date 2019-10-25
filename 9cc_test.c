@@ -14,12 +14,11 @@ int main(int argc, char **argv)
     // printf("%s\n", argv[0]);
     // printf("%s\n", argv[1]);
 
-    printf("%p\n", &p);
+    printf("値は%s\n", p);
 
     while (*p)
     {
+        printf("%s\n", p);
         p++;
-        printf("%d\n", *p);
-        continue;
     }
 }
