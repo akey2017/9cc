@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Fri Oct 25 2019 20:55:33 GMT+0900 (日本標準時)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/autogit.json
+* .vscode/launch.json
+* .vscode/settings.json
+* 9cc-1
+* 9cc_test
+* 9cc_test.c
+
+
+Deleted files:
+
+
+Renamed files:

@@ -11,15 +11,15 @@ int main(int argc, char **argv)
 
     char *p = argv[1];
 
-    printf("%s\n", argv[0]);
-    printf("%s\n", argv[1]);
+    // printf("%s\n", argv[0]);
+    // printf("%s\n", argv[1]);
 
-    printf("%d\n", &p);
+    printf("%p\n", &p);
 
-    // while (*p)
-    // {
-    //     // p++;
-    //     printf("%d\n", *p);
-    //     continue;
-    // }
+    while (*p)
+    {
+        p++;
+        printf("%d\n", *p);
+        continue;
+    }
 }
